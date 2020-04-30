@@ -31,7 +31,7 @@ export default class FirstName extends Component {
         submit(){
             // const isValid = this.valid()
             if(this.valid()){
-             
+                console.log(this.state);
                 alert("Form has been  submitted")
             }
         }

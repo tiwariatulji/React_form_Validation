@@ -4,6 +4,10 @@ import Login from './Form-validation/LoginForm/Login'
 import Email from './Form-validation/Email'
 import FirstName from './Form-validation/Email/FirstName'
 import NewForm from './Form-validation/Email/NewForm'
+import LifeCycle from './NormalReact/LifeCycle'
+import ComponentUpdate from './NormalReact/ComponentUpdate'
+import Unmount from './NormalReact/Unmount'
+
 export default class App extends Component {
   render() {
     return (
@@ -13,7 +17,11 @@ export default class App extends Component {
       {/* <Login/> */}
       {/* <Email/> */}
       {/* <FirstName/> */}
-      <NewForm/>
+       <LifeCycle/>
+       <ComponentUpdate/>
+       <Unmount/>
+    
+      
       </div>
     )
   }
